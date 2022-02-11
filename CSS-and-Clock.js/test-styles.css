@@ -1,0 +1,197 @@
+body {
+  /*background-image: url(../Pictures/Main-Page/main-page-computer.jpeg);*/
+  background: linear-gradient(lightgreen, lightblue);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* Body font */
+  font-family: 'Sarala', sans-serif;
+  font-size: 100%;
+}
+
+
+/* Nav bar */
+
+/* Navbar background-color */
+.bg-lawn-color {
+  background-color: rgb(237,233,221);
+}
+
+/* Active Tab */
+nav > div.container-lg > div.collapse > div.navbar-nav > a.active2 {
+  color: white;
+  background-color: #4b9955;
+}
+
+/* Hover attribute for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a:hover {
+  background-color: #3c7343;
+  color: white;
+}
+
+/* Active click attribute for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a:active {
+  color: #adadad;
+}
+
+/* Border-radius for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a {
+  border-radius: 5px;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .nav-link {
+    font-size: 75%;
+  }
+}
+
+
+@media screen and (max-width: 991.5px) {
+  .nav-link {
+    font-size: 100%;
+  }
+}
+
+
+
+
+/* Footer */
+
+/* Footer styles */
+footer {
+  width: 100%;
+  background-color: rgb(237,233,221);
+}
+
+/* Footer link styles */
+footer > div.p-3 > section.links > a {
+  background-color: #4b9955;
+  color: white;
+}
+
+/* Hover attribute for footer links */
+footer > div.p-3 > section.links > a:hover {
+  background-color: #3c7343;
+}
+
+/* Active attribute for footer links */
+footer > div.p-3 > section.links > a:active {
+  color: #adadad;
+}
+
+
+
+.back-img {
+  background-image: url('../Pictures/About-Us/aboutus-background-computer.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.hello {
+  background: linear-gradient(lightblue, blue);
+  padding: 2%;
+  margin: 1% 0px 5% 0px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  color: white;
+}
+
+
+
+a.promo {
+  text-decoration-line: none;
+  color: white;
+}
+
+a.hover:hover {
+  color: #c9c9c9
+}
+
+a.active:active {
+  color: #a8a7a7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.height-70 {
+    height: 70vh
+}
+
+.card {
+    width: 380px;
+    border: none;
+    height: auto;
+}
+
+.ratings {
+    margin-right: 10px;
+}
+
+.ratings i {
+    color: #cecece;
+    font-size: 32px;
+}
+
+.rating-color {
+    color: #fbc634 !important
+}
+
+.review-count {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 24px !important
+}
+
+.small-ratings i {
+    color: #cecece
+}
+
+.review-stat {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 2px
+}
+
+
+p.float {
+  float: right;
+}
+
+
+.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
+
+
+@media screen and (max-width: 368.5px) {
+  .ratings i {
+      color: #cecece;
+      font-size: 28px !important;
+  }
+}

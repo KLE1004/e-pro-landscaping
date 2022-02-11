@@ -1,0 +1,192 @@
+
+/* Grid container/Columns styles */
+/*.shade {
+  background-color: rgba(0,0,0,0.5);
+}*/
+/*
+.page-padding {
+  padding: 0 2.5% 0 2.5%;
+}
+
+@media (max-width: 1200px) {
+    #myContainer {
+        width: 50%; /*this gives it the precise width to match the Bootstrap defaults
+    }
+}*/
+
+
+
+/* Table styles
+
+td {
+  color: white;
+  font-size: 19px;
+}
+*/
+
+
+/* Picture styles
+
+#lawn {
+  margin: 2%;
+  padding: 0 0 0 0;
+  width: 50%;
+  height: auto;
+}
+
+#pictures {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  #lawn {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #lawn {
+    width: 100%;
+  }
+}
+
+.img-bottom-space {
+  margin: 0 0 4% 0;
+}
+*/
+
+
+/* Heading styles
+
+h1.text-center {
+  color: white;
+}
+
+.heading {
+  margin: 2% 0 2% 0;
+}
+
+.review-heading {
+  margin: 0 0 5% 0;
+}
+
+h3 {
+  color: white;
+}
+
+@media screen and (max-width: 1250px) {
+  .heading {
+    font-size: 180%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .heading {
+    font-size: 165%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .heading {
+    font-size: 150%;
+  }
+}
+
+*/
+
+/* Text styles
+
+p {
+  color: white;
+}
+
+p.review-words {
+  margin: 3% 0 2% 0;
+  text-align: justify;
+}
+
+.main-page-opening {
+  line-height: 2.3;
+  text-align: justify;
+}
+
+small {
+  font-size: 13px;
+}
+
+*/
+
+/* Top Review styles
+
+div.carousel {
+  border-radius: 0 0 0 0;
+}
+
+*/
+
+/* Message styles
+
+.message {
+  border: 3px solid #dedede;
+  background-color: #4b9966;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+div.message > div.text-center > span.review {
+  word-spacing: 10px;
+  margin: 0 5% 0 0;
+  color: white;
+}
+
+div.message > div.text-center > span.descrp {
+  margin: 0 5% 0 0;
+  color: white;
+}
+
+div.message > div.text-center > span.rate {
+  word-spacing: 10px;
+  color: white;
+}
+
+div.message > div.text-center > span.fa-star {
+  font-size: 20px;
+}
+
+*/
+
+/* Review Section styles
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+.five-star {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+*/
+
+
+
+/* Hero Slider */
+/*
+.carousel-item {
+  background-color: red;
+  width:100%;
+  height:550px;
+}
+
+.carousel-inner {
+  border: 5px solid black;
+}
+*/

@@ -1,0 +1,182 @@
+/* Body */
+
+body {
+  /* background-image: linear-gradient(to right, green, yellow); */
+  background-image: url('../Pictures/About-Us/aboutus-background-computer.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* Body font */
+  font-family: 'Sarala', sans-serif;
+  font-size: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .nav-link {
+    font-size: 75%;
+  }
+}
+
+
+@media screen and (max-width: 991.5px) {
+  .nav-link {
+    font-size: 100%;
+  }
+}
+
+div.hello {
+  background: linear-gradient(lightblue, blue);
+  padding: 2%;
+  margin: 5% 0px 5% 0px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  color: white;
+}
+
+a.promo {
+  text-decoration-line: none;
+  color: white;
+}
+
+a.hover:hover {
+  color: #c9c9c9
+}
+
+a.active:active {
+  color: #a8a7a7;
+}
+
+.back-img {
+  background-image: url('../Pictures/About-Us/aboutus-background-computer.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* Nav bar */
+
+/* Navbar background-color */
+.bg-lawn-color {
+  background-color: rgb(237,233,221);
+}
+
+/* Active Tab */
+nav > div.container-lg > div.collapse > div.navbar-nav > a.active2 {
+  color: white;
+  background-color: #4b9955;
+}
+
+/* Hover attribute for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a:hover {
+  background-color: #3c7343;
+  color: white;
+}
+
+/* Active click attribute for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a:active {
+  color: #adadad;
+}
+
+/* Border-radius for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a {
+  border-radius: 5px;
+}
+
+
+
+div.container-lg > div.row > div.col-xs-12 > div.row {
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+/* Footer styles */
+footer {
+  width: 100%;
+  background-color: rgb(237,233,221);
+}
+
+/* Footer link styles */
+footer > div.p-3 > section.links > a {
+  background-color: #4b9955;
+  color: white;
+}
+
+/* Hover attribute for footer links */
+footer > div.p-3 > section.links > a:hover {
+  background-color: #3c7343;
+}
+
+/* Active attribute for footer links */
+footer > div.p-3 > section.links > a:active {
+  color: #adadad;
+}
+
+
+
+/* Link styles */
+
+a {
+  text-decoration-line: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: #a8a7a7;
+}
+
+a.hover:hover {
+  color: #c9c9c9
+}
+
+a.active:active {
+  color: #a8a7a7;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.shade {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.page-padding {
+  padding: 0 2.5% 2.5% 2.5%;
+}
+
+/* Picture styles */
+
+@media screen and (max-width: 992px) {
+  #about {
+    width: 70%;
+    margin-bottom: 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #about {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+}

@@ -1,0 +1,228 @@
+/* Body */
+
+body {
+  /* background-image: linear-gradient(to right, green, yellow); */
+background-image: url(../Pictures/Information-Page/info-background-computer-1.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* Body font */
+  font-family: 'Sarala', sans-serif;
+  font-size: 100%;
+}
+
+@media screen and (max-width: 930px) {
+  body {
+    background-image: url(../Pictures/Information-Page/info-background-tablet.jpeg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(../Pictures/Information-Page/info-background-phone.jpeg);
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .nav-link {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 991.5px) {
+  .nav-link {
+    font-size: 100%;
+  }
+}
+
+
+p {
+  color: white;
+}
+
+
+.intro-text {
+  font-size: 120%;
+}
+
+@media screen and (max-width: 1440px) {
+  .intro-text {
+    font-size: 120%;
+  }
+}
+
+
+@media screen and (max-width: 1025px) {
+  .intro-text {
+    font-size: 110%;
+  }
+}
+
+h1 {
+  color: white;
+}
+
+.shade {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.page-padding {
+  padding: 0 2.5% 0 2.5%;
+}
+
+ul {
+  color: white;
+}
+
+
+/* Nav bar */
+
+/* Navbar backhround-color */
+.bg-lawn-color {
+  background-color: rgb(237,233,221);
+}
+
+/* Active Tab */
+nav > div.container-lg > div.collapse > div.navbar-nav > a.active2 {
+  color: white;
+  background-color: #4b9955;
+  border-radius: 5px;
+}
+
+/* Border-radius for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a {
+  border-radius: 5px;
+}
+
+/* Nav-link styles */
+nav > div.container-lg > div.collapse > li {
+  color: white;
+  background-color: #4b9955;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* Hover attribute for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a:hover {
+  background-color: #3c7343;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Active click attribute for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a:active {
+  color: #adadad;
+}
+
+
+
+/* Footer */
+
+/* Footer styles */
+footer {
+  width: 100%;
+  background-color: rgb(237,233,221);
+}
+
+/* Footer link styles */
+footer > div.p-3 > section.links > a {
+  background-color: #4b9955;
+  color: white;
+}
+
+/* Hover attribute for footer links */
+footer > div.p-3 > section.links > a:hover {
+  background-color: #3c7343;
+}
+
+/* Active attribute for footer links */
+footer > div.p-3 > section.links > a:active {
+  color: #adadad;
+}
+
+
+
+/* Grid container/Columns styles */
+
+.shade {
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+/* Link styles */
+
+a {
+  text-decoration-line: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: #a8a7a7;
+}
+
+a.hover:hover {
+  color: #c9c9c9
+}
+
+a.active:active {
+  color: #a8a7a7;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .nav-link {
+    font-size: 75%;
+  }
+}
+
+
+@media screen and (max-width: 991.5px) {
+  .nav-link {
+    font-size: 100%;
+  }
+}
+
+
+
+
+
+
+div.hello {
+  background: linear-gradient(lightblue, blue);
+  padding: 2%;
+  margin: 5% 0px 5% 0px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  color: white;
+}
+
+
+
+a.promo {
+  text-decoration-line: none;
+  color: white;
+}
+
+a.hover:hover {
+  color: #c9c9c9
+}
+
+a.active:active {
+  color: #a8a7a7;
+}

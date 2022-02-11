@@ -1,0 +1,421 @@
+/* Body */
+
+body {
+  /*background-image: url(../Pictures/Main-Page/main-page-computer.jpeg);*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* Body font */
+  font-family: 'Sarala', sans-serif;
+  font-size: 100%;
+  background-color: white;
+}
+
+
+
+/* Nav bar */
+
+/* Navbar background-color */
+.bg-lawn-color {
+  background-color: rgb(237,233,221);
+}
+
+/* Active Tab */
+nav > div.container-lg > div.collapse > div.navbar-nav > a.active2 {
+  color: white;
+  background-color: #4b9955;
+}
+
+/* Hover attribute for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a:hover {
+  background-color: #3c7343;
+  color: white;
+}
+
+/* Active click attribute for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a:active {
+  color: #adadad;
+}
+
+/* Border-radius for nav-links */
+nav > div.container-lg > div.collapse > div.navbar-nav > a {
+  border-radius: 5px;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .nav-link {
+    font-size: 75%;
+  }
+}
+
+
+@media screen and (max-width: 991.5px) {
+  .nav-link {
+    font-size: 100%;
+  }
+}
+
+
+.intro-text {
+  font-size: 120%;
+}
+
+@media screen and (max-width: 1440px) {
+  .intro-text {
+    font-size: 120%;
+  }
+}
+
+
+@media screen and (max-width: 1025px) {
+  .intro-text {
+    font-size: 110%;
+  }
+}
+
+.intro-text-1 {
+  font-size: 120%;
+}
+
+@media screen and (max-width: 1063.5px) {
+  .intro-text-1 {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 767.5px) {
+  .intro-text-1 {
+    font-size: 80%;
+  }
+}
+
+img.hero {
+  height: 80%;
+}
+
+@media screen and (max-width: 991.5px) {
+  img.hero {
+    width: 40%;
+  }
+}
+
+
+
+.intro-text-2 {
+  font-size: 200%;
+}
+
+.intro-text-cap {
+  font-size: 120%;
+}
+
+@media screen and (max-width: 1034.5px) {
+  .intro-text-2 {
+    font-size: 190%;
+  }
+
+  .intro-text-cap {
+    font-size: 100%;
+  }
+}
+
+
+
+
+.top {
+  margin: 10% 5% 3% 0;
+}
+
+.bottom {
+  margin: 10% 0 0 0;
+}
+
+@media screen and (max-width: 991.5px) {
+  .intro-text-2 {
+    font-size: 160%;
+  }
+
+  .intro-text-cap {
+    font-size: 80%;
+  }
+
+  .top {
+    margin: 0 0 0 0;
+  }
+
+  .bottom {
+    margin: 2% 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 694.5px) {
+  .intro-text-2 {
+    font-size: 140%;
+  }
+
+  .intro-text-cap {
+    font-size: 80%;
+  }
+
+  .bottom {
+    margin: 0 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 575.5px) {
+  .intro-text-2 {
+    font-size: 110%;
+  }
+
+  .intro-text-cap {
+    font-size: 80%;
+  }
+
+  #carouselHero .carousel-item .caption .new-cap{
+    padding:20px !important;
+    color:white;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+  .intro-text-2 {
+    font-size: 100%;
+  }
+
+  .intro-text-cap {
+    font-size: 70%;
+  }
+}
+
+
+
+
+
+
+
+/* Footer */
+
+/* Footer styles */
+footer {
+  width: 100%;
+  background-color: rgb(237,233,221);
+}
+
+/* Footer link styles */
+footer > div.p-3 > section.links > a {
+  background-color: #4b9955;
+  color: white;
+}
+
+/* Hover attribute for footer links */
+footer > div.p-3 > section.links > a:hover {
+  background-color: #3c7343;
+}
+
+/* Active attribute for footer links */
+footer > div.p-3 > section.links > a:active {
+  color: #adadad;
+}
+
+
+
+/* Hero Slider */
+
+#carouselHero .carousel-item.hero{
+  background-image:url("../Pictures/Main-Page/main-page-computer.jpeg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.hero > div.row > .carousel-caption {
+  background:rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+
+#carouselHero .carousel-item.services{
+  background-image:url('../Pictures/Information-Page/info-background-computer.jpeg');
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.services > div.row > .carousel-caption {
+  background:rgba(0,0,0,0.8);
+  border-radius: 10px;
+}
+
+#carouselHero .carousel-item.social{
+  background-image:url("../Pictures/Others/back.jpeg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.social > div.row > .carousel-caption {
+  border-radius: 10px;
+}
+
+#carouselHero .carousel-item.promo-1{
+  background-image:url("../Pictures/Others/promo-1.jpeg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.promo-1 > div.row > .carousel-caption > .caption {
+  background:rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin: 15% 0 0 0;
+}
+
+#carouselHero .carousel-item.review{
+  background-image:url("../Pictures/Others/background.jpeg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.review > div.row > .carousel-caption > .caption {
+  /*background:rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin: 15% 0 0 0;*/
+}
+
+.review-img {
+  width: 45%;
+}
+
+@media screen and (max-width: 1024px) {
+  .review-img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .review-img {
+    width: 90%;
+  }
+}
+
+
+#carouselHero .carousel-item{
+  height:80vh;
+  width:100%;
+  min-height:350px;
+  background:no-repeat;
+  background-size:cover;
+}
+
+#carouselHero .carousel-item .caption{
+  padding:40px;
+  color:white;
+}
+
+#grad-1 {
+  background: linear-gradient(lightblue, green);
+}
+
+ul.col-lg-6 {
+  list-style-type: none;
+}
+
+.carousel-control-prev {
+  background-color: black;
+  width: 5%;
+}
+
+.carousel-control-next {
+  background-color: black;
+  width: 5%;
+}
+
+.back-img {
+  background-image: url('../Pictures/About-Us/aboutus-background-computer-1.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Home Page */
+
+div.intro {
+  padding: 3% 0;
+}
+
+div.hello {
+  background: linear-gradient(lightblue, blue);
+  padding: 2%;
+  margin: 5% 0px 5% 0px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  color: white;
+}
+
+a.promo-1 {
+  color: black;
+  text-decoration-line: none;
+}
+
+a.promo {
+  text-decoration-line: none;
+  color: white;
+}
+
+a.hover:hover {
+  color: #c9c9c9
+}
+
+a.active:active {
+  color: #a8a7a7;
+}
+
+p.work {
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+.facebook {
+  margin: 10% 0 10% 35%;
+}
+
+.facebook-1 {
+  margin: 0 10%;
+}
+
+
+
+@media screen and (max-width: 991.5px) {
+  .facebook {
+    margin: 10% 0 10% 0%;
+  }
+
+  img.facebook {
+    width: 70%;
+  }
+}
+
+
+@media screen and (max-width: 575.5px) {
+  .facebook {
+    margin: 2% 0 2% 0%;
+  }
+
+  img.facebook {
+    width: 60%;
+  }
+}
